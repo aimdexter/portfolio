@@ -1,7 +1,7 @@
-import { useState } from 'react'
 import Header from './components/Header'
 import Menu from './components/Menu'
 import Socials from './components/Socials'
+import Projects from './components/Projects'
 import './index.css'
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Menu />
       <Header />
       <Socials />
+      <Projects />
     </div>
   )
 }
