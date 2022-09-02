@@ -5,16 +5,20 @@ import Projects from './components/Projects'
 import './index.css'
 import Profile from './components/Profile'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="font-arial p-4 flex flex-col pb-40">
-      <Menu />
-      <Header />
-      <Socials />
-      <Projects />
-      <Profile />
-      <Contact />
+    <div className="font-arial flex flex-col">
+      <div className="p-4 max-w-[1024px] mx-auto">
+        <Menu />
+        <Header />
+        <Socials />
+        <Projects />
+        <Profile />
+        <Contact />
+      </div>
+      <Footer />
     </div>
   )
 }

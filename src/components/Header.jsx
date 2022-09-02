@@ -1,6 +1,6 @@
 const Header = () => {
     return (
-        <div className="flex flex-col gap-7 py-7 justify-center">
+        <div className="flex flex-col gap-7 py-7">
             <div className="font-extrabold text-5xl">
                 I'm Aimade ANOUAR
             </div>

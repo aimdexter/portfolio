@@ -3,7 +3,7 @@ import { IoMdSend } from 'react-icons/io';
 const Contact = () => {
     return (
         <div class="flex flex-col justify-center items-center pt-8">
-            <div class="pt-4 pb-8 rounded-xl w-[320px]">
+            <div class="pt-4 pb-4 rounded-xl w-[320px]">
                 <h1 class="text-2xl font-semibold text-gray-900 text-center">I’m ready to talk...</h1>
                 <form class="mt-12" action="" method="POST">
                     <div class="relative">

@@ -20,14 +20,46 @@ const Projects = () => {
         code: 'https://aimdexter.github.io/AMAROQ/',
         demo: 'https://github.com/aimdexter/AMAROQ',
     },
+    {
+        id: 3,
+        title: 'AMAROQ',
+        content: 'Portfolio for a photographer, artist and Filmmaker',
+        image: '/images/amarok.png',
+        code: 'https://aimdexter.github.io/AMAROQ/',
+        demo: 'https://github.com/aimdexter/AMAROQ',
+    },
+    {
+        id: 3,
+        title: 'i2i-infogerance',
+        content: 'Pwa for i2i company',
+        image: '/images/i2i.png',
+        code: 'https://github.com/youssra-ghninou/i2i-infogerance',
+        demo: 'https://www.info2i.com/',
+    },
+    {
+        id: 4,
+        title: 'AMAROQ',
+        content: 'Portfolio for a photographer, artist and Filmmaker',
+        image: '/images/amarok.png',
+        code: 'https://aimdexter.github.io/AMAROQ/',
+        demo: 'https://github.com/aimdexter/AMAROQ',
+    },
+    {
+        id: 5,
+        title: 'i2i-infogerance',
+        content: 'Pwa for i2i company',
+        image: '/images/i2i.png',
+        code: 'https://github.com/youssra-ghninou/i2i-infogerance',
+        demo: 'https://www.info2i.com/',
+    },
     ];
     return (
-        <div className="py-7 flex flex-col gap-5">
+        <div className="py-7 flex flex-col gap-5 justify-center items-center md:flex-row md:flex-wrap">
             {projects.map(({ id, title, content, image, code, demo }) => {
                 return (
-                    <div key={id} className="shadow-2xl rounded-2xl">
+                    <div key={id} className="shadow-2xl rounded-2xl max-w-[300px]">
                         <div className="">
-                            <img className="rounded-3xl object-fill py-2" src={image} alt={title} />
+                            <img className="rounded-3xl py-2 md:w-[300px] md:h-[300px]" src={image} alt={title} />
                         </div>
                         <div className="px-4 pb-4">
                             <div className="text-2xl text-brand font-bold py-2">
