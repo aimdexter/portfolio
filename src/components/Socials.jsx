@@ -4,7 +4,7 @@ import { IoIosAttach } from 'react-icons/io';
 
 const Socials = () => {
     return (
-        <div className="flex flex-col gap-5 justify-center mb-4 md:flex-row md:justify-between">
+        <div className="flex flex-col gap-5 justify-center mb-4 md:flex-row md:justify-between md:pr-24">
             <div className="flex justify-around md:gap-5">
                 <div className="text-2xl text-blue-900">
                     <FaLinkedinIn />
