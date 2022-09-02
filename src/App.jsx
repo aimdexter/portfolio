@@ -6,10 +6,12 @@ import './index.css'
 
 function App() {
   return (
-    <div className="font-arial p-4 flex flex-col gap-7">
+    <div className="font-arial p-4 flex flex-col">
       <Menu />
       <Header />
-      <Socials />
+      <div id='socials'>
+        <Socials />
+      </div>
       <Projects />
     </div>
   )
