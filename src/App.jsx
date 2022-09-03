@@ -12,10 +12,8 @@ function App() {
     <div className="font-arial flex flex-col">
       <div className="p-4 max-w-[1024px] mx-auto">
         <Menu />
-        <Header />
-        <Socials />
-        <Projects />
         <Profile />
+        <Projects />
         <Contact />
       </div>
       <Footer />

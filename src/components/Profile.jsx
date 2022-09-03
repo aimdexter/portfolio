@@ -1,21 +1,28 @@
+import Socials from "./Socials";
 import Stack from "./Stack";
 
 const Profile = () => {
     return (
-        <div className=" flex flex-col pt-8">
-            <div className="md:flex md:justify-center md:items-center md:gap-5 md:pb-8">
+        <div className=" flex flex-col pt-8 lg:mt-8">
+            <div className="flex pb-6 flex-col-reverse md:flex md:flex-row md:justify-center md:items-center md:gap-5 md:pb-8">
                 <div className="md:flex-1">
                     <img src="/images/profile.jpg" className="rounded-3xl" alt="" />
                 </div>
                 <div className="md:flex-1">
-                    <div className="flex flex-col text-xl font-bold pt-8">
-                        Nice to meet you,
-                        <span className="text-2xl font-extrabold text-brand pb-4">I am Aimade ANOUAR</span>
+                    <div className="flex flex-col text-xl font-bold py-4">
+                        <span className="font-extrabold text-4xl text-brand pb-4"> > I'm Aimade ANOUAR</span>
+                        <div className="text-brandLight">Nice to meet you,</div>
                     </div>
-                    <div className="flex text-base font-medium pb-8 md:pr-3">
-                        Working full time in Angular, Typescript and SCSS, leading the team for revamping DotCMS administration system.
+                    <div className="flex text-base md:flex-col text-justify font-bold pb-8 md:pr-3">
+                        <div className="pb-8">I am a full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.</div>
+                        <div className="hidden md:block">
+                            <Socials />
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div className="md:hidden">
+                <Socials />
             </div>
             <div className="py-8">
                 <div className="flex flex-col justify-center items-center gap-5 md:px-20">

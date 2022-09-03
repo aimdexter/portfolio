@@ -54,41 +54,44 @@ const Projects = () => {
     },
     ];
     return (
-        <div className="py-7 flex flex-col gap-5 justify-center items-center md:flex-row md:flex-wrap">
-            {projects.map(({ id, title, content, image, code, demo }) => {
-                return (
-                    <div key={id} className="shadow-2xl rounded-2xl max-w-[300px]">
-                        <div className="">
-                            <img className="rounded-3xl py-2 md:w-[300px] md:h-[300px]" src={image} alt={title} />
+        <>
+            <div className="font-extrabold text-4xl text-brand pt-8 ">Latest Projects</div>
+            <div className="py-7 flex flex-col gap-5 justify-around items-center md:flex-row md:flex-wrap">
+                {projects.map(({ id, title, content, image, code, demo }) => {
+                    return (
+                        <div key={id} className="shadow-2xl rounded-2xl md:max-w-[300px]">
+                            <div className="">
+                                <img className="rounded-3xl py-2" src={image} alt={title} />
+                            </div>
+                            <div className="px-4 pb-4">
+                                <div className="text-2xl text-brand font-bold py-2">
+                                    {title}
+                                </div>
+                                <div className="flex gap-2">
+                                    <Stack content='HTML' />
+                                    <Stack content='JavaScript' />
+                                    <Stack content='Git' />
+                                    <Stack content='ViteJs' />
+                                </div>
+                                <div className="text-base py-4 font-semibold">
+                                    {content}
+                                </div>
+                                <div className="flex gap-6 text-base font-bold">
+                                    <a href={code} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
+                                        <BsCode />
+                                        <div className="l">code</div>
+                                    </a>
+                                    <a href={demo} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
+                                        <GrDeploy />
+                                        <div className="l">demo</div>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                        <div className="px-4 pb-4">
-                            <div className="text-2xl text-brand font-bold py-2">
-                                {title}
-                            </div>
-                            <div className="flex gap-2">
-                                <Stack content='HTML' />
-                                <Stack content='JavaScript' />
-                                <Stack content='Git' />
-                                <Stack content='ViteJs' />
-                            </div>
-                            <div className="text-base py-4 font-semibold">
-                                {content}
-                            </div>
-                            <div className="flex gap-6 text-base font-bold">
-                                <a href={code} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
-                                    <BsCode />
-                                    <div className="l">code</div>
-                                </a>
-                                <a href={demo} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
-                                    <GrDeploy />
-                                    <div className="l">demo</div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                );
-            })}
-        </div>
+                    );
+                })}
+            </div>
+        </>
     );
 }
 
