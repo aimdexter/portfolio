@@ -1,5 +1,6 @@
 import Socials from "./Socials";
 import Stack from "./Stack";
+import Typical from 'react-typical'
 
 const Profile = () => {
     return (
@@ -10,7 +11,13 @@ const Profile = () => {
                 </div>
                 <div className="md:flex-1">
                     <div className="flex flex-col text-xl font-bold py-4">
-                        <span className="font-extrabold text-4xl text-brand pb-4"> > I'm Aimade ANOUAR</span>
+                        <span className="font-extrabold text-4xl text-brand pb-4">
+                        >
+                            <Typical
+                                wrapper='b'
+                                steps={[' Hello world!', 1000, ' I am Aimade ANOUAR', 1000]}
+                            />
+                        </span>
                         <div className="text-brandLight">Nice to meet you,</div>
                     </div>
                     <div className="flex text-base md:flex-col text-justify font-bold pb-8 md:pr-3">
