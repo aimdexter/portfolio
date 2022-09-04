@@ -7,32 +7,32 @@ const Socials = () => {
     return (
         <div className="flex flex-col gap-5 justify-center mb-4 md:flex-row md:justify-between">
             <div className="flex justify-around md:gap-2 lg:gap-4">
-                <div className="text-2xl text-blue-900 transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://www.linkedin.com/in/aimade-anouar/" target='_blank'>
                         <FaLinkedinIn />
                     </a>
                 </div>
-                <div className="text-2xl text-blue-400 transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-blue-400 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://twitter.com/AnouarAimade" target="_blank">
                         <BsTwitter />
                     </a>
                 </div>
-                <div className="text-2xl text-blue-900 transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://github.com/aimdexter" target="_blank">
                         <FaGithub />
                     </a>
                 </div>
-                <div className="text-2xl text-brand transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-brand transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://stackoverflow.com/users/12769151/aimade-anouar?tab=profile" target="_blank">
                         <BsStackOverflow />
                     </a>
                 </div>
-                <div className="text-2xl text-red-500 transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-red-500 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://www.youtube.com/channel/UCiKzwqOD_8s764hzvhoZm9w" target="_blank">
                         <BsYoutube />
                     </a>
                 </div>
-                <div className="text-2xl text-pink-900 transition duration-500 hover:bg-dark p-2 rounded-full hover:text-white dark:hover:bg-white dark:hover:text-dark">
+                <div className="text-2xl text-pink-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark">
                     <a href="https://www.instagram.com/aimade_anouar/" target="_blank">
                         <FaInstagram />
                     </a>
