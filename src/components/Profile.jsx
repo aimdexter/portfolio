@@ -12,16 +12,15 @@ const Profile = () => {
                 <div className="md:flex-1">
                     <div className="flex flex-col text-xl font-bold py-4">
                         <span className="font-extrabold text-4xl text-brand pb-4">
-                        >
                             <Typical
                                 wrapper='b'
-                                steps={[' Hello world!', 1000, ' I am Aimade ANOUAR', 1000]}
+                                steps={['> I am Aimade ANOUAR', 5000]}
                             />
                         </span>
                         <div className="text-brandLight">Nice to meet you,</div>
                     </div>
                     <div className="flex text-base md:flex-col text-justify font-bold pb-8 md:pr-3">
-                        <div className="pb-8">I am a full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.</div>
+                        <div className="pb-8 dark:text-white transition duration-500">I am a full-stack engineer, creative coder and self-proclaimed designer who specializes in front-end development. I make it my mission to translate user-focused designs into pixel-perfect websites or applications that run blazing fast.</div>
                         <div className="hidden md:block">
                             <Socials />
                         </div>
@@ -32,7 +31,7 @@ const Profile = () => {
                 <Socials />
             </div>
             <div className="py-8">
-                <div className="flex flex-col justify-center items-center gap-5 md:px-20">
+                <div className="flex flex-col justify-center items-center gap-5 md:px-20 dark:text-white transition duration-500">
                     <div className="text-xl font-bold px-16 text-center">
                         My experience includes but not limited
                     </div>

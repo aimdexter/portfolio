@@ -9,7 +9,7 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="font-arial flex flex-col">
+    <div className="font-arial flex flex-col bg-white dark:bg-dark transition duration-500">
       <div className="p-4 max-w-[1024px] mx-auto">
         <Menu />
         <Profile />

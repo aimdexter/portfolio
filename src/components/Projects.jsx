@@ -1,6 +1,6 @@
 import Stack from "./Stack";
 import { BsCode } from 'react-icons/bs';
-import { GrDeploy } from 'react-icons/gr';
+import { TbScreenShare } from 'react-icons/tb';
 
 
 const Projects = () => {
@@ -59,7 +59,7 @@ const Projects = () => {
             <div className="py-7 flex flex-col gap-5 justify-around items-center md:flex-row md:flex-wrap">
                 {projects.map(({ id, title, content, image, code, demo }) => {
                     return (
-                        <div key={id} className="shadow-2xl rounded-2xl md:max-w-[300px]">
+                        <div key={id} className="shadow-lg shadow-dark dark:shadow-white dark:shadow-sm transition duration-500 rounded-2xl md:max-w-[300px]">
                             <div className="">
                                 <img className="rounded-3xl py-2" src={image} alt={title} />
                             </div>
@@ -67,22 +67,22 @@ const Projects = () => {
                                 <div className="text-2xl text-brand font-bold py-2">
                                     {title}
                                 </div>
-                                <div className="flex gap-2">
+                                <div className="flex gap-2 dark:text-white transition duration-500">
                                     <Stack content='HTML' />
                                     <Stack content='JavaScript' />
                                     <Stack content='Git' />
                                     <Stack content='ViteJs' />
                                 </div>
-                                <div className="text-base py-4 font-semibold">
+                                <div className="text-base py-4 font-semibold dark:text-white transition duration-500">
                                     {content}
                                 </div>
-                                <div className="flex gap-6 text-base font-bold">
-                                    <a href={code} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
+                                <div className="flex gap-6 text-base font-bold dark:text-white transition duration-500">
+                                    <a href={code} className='pb-1  px-2 flex items-center gap-2 border-b-2 border-brand'>
                                         <BsCode />
                                         <div className="l">code</div>
                                     </a>
                                     <a href={demo} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
-                                        <GrDeploy />
+                                        <TbScreenShare />
                                         <div className="l">demo</div>
                                     </a>
                                 </div>
