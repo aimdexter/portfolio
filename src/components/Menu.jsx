@@ -25,7 +25,7 @@ const Menu = () => {
                         <div className="text-xl">
                             <FaHome />
                         </div>
-                        <span className="text-xs ">Home</span>
+                        <span className="text-xs">Home</span>
                     </HashLink>
                     <HashLink smooth to="/#contact" className="flex flex-col gap-1 justify-center items-center w-full focus:text-brand hover:text-brand pt-2 pb-1">
                         <div className="text-xl">

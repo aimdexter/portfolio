@@ -3,11 +3,40 @@ import Stack from "./Stack";
 import Typical from 'react-typical'
 
 const Profile = () => {
+    const tools = [
+        "HTML",
+        "CSS",
+        "SASS",
+        "Tailwind",
+        "Bootstrap",
+        "Figma",
+        "JavaScript",
+        "Nodejs",
+        "npm",
+        "Reactjs",
+        "Nextjs",
+        "Git",
+        "ViteJs",
+        "Python",
+        "Django",
+        "PostgreSQL",
+        "MongoDB",
+        "Mysql",
+        "SQLserver",
+        "Firebase",
+        "Docker",
+        "Nginx",
+        "Github",
+        "Gitlab",
+        "Heroku",
+        "Vercel",
+        "Netlify"
+    ];
     return (
         <div className=" flex flex-col pt-8 lg:mt-8">
             <div className="flex pb-6 flex-col-reverse md:flex md:flex-row md:justify-center md:items-center md:gap-5 md:pb-8">
                 <div className="md:flex-1">
-                    <img src="/images/profile.jpg" className="rounded-3xl" alt="" />
+                    <img src="/images/profile.jpg" className="rounded-3xl transition hover:-translate-y-1 hover:-rotate-6 duration-300" alt="" />
                 </div>
                 <div className="md:flex-1">
                     <div className="flex flex-col text-xl font-bold py-4">
@@ -36,33 +65,11 @@ const Profile = () => {
                         My experience includes but not limited
                     </div>
                     <div className="flex gap-2 flex-wrap items-center justify-center">
-                        <Stack content='HTML' />
-                        <Stack content='CSS' />
-                        <Stack content='SASS' />
-                        <Stack content='Tailwind' />
-                        <Stack content='Bootstrap' />
-                        <Stack content='Figma' />
-                        <Stack content='JavaScript' />
-                        <Stack content='Nodejs' />
-                        <Stack content='npm' />
-                        <Stack content='Reactjs' />
-                        <Stack content='Nextjs' />
-                        <Stack content='Git' />
-                        <Stack content='ViteJs' />
-                        <Stack content='Python' />
-                        <Stack content='Django' />
-                        <Stack content='PostgreSQL' />
-                        <Stack content='MongoDB' />
-                        <Stack content='Mysql' />
-                        <Stack content='SQLserver' />
-                        <Stack content='Firebase' />
-                        <Stack content='Docker' />
-                        <Stack content='Nginx' />
-                        <Stack content='Github' />
-                        <Stack content='Gitlab' />
-                        <Stack content='Heroku' />
-                        <Stack content='Vercel' />
-                        <Stack content='Netlify' />
+                        {tools.map((item, i) => {
+                            return (
+                                <Stack key={i} content={item} />
+                            );
+                        })}
                     </div>
                 </div>
             </div>
