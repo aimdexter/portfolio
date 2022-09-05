@@ -17,19 +17,19 @@ const Projects = () => {
         title: 'AMAROQ',
         content: 'Portfolio for a photographer, artist and Filmmaker',
         image: '/images/amarok.png',
-        code: 'https://aimdexter.github.io/AMAROQ/',
-        demo: 'https://github.com/aimdexter/AMAROQ',
+        code: 'https://github.com/aimdexter/AMAROQ',
+        demo: 'https://aimdexter.github.io/AMAROQ/',
     },
     {
         id: 3,
         title: 'AMAROQ',
         content: 'Portfolio for a photographer, artist and Filmmaker',
         image: '/images/amarok.png',
-        code: 'https://aimdexter.github.io/AMAROQ/',
-        demo: 'https://github.com/aimdexter/AMAROQ',
+        code: 'https://github.com/aimdexter/AMAROQ',
+        demo: 'https://aimdexter.github.io/AMAROQ/',
     },
     {
-        id: 3,
+        id: 4,
         title: 'i2i-infogerance',
         content: 'Pwa for i2i company',
         image: '/images/infoi.jpg',
@@ -37,15 +37,15 @@ const Projects = () => {
         demo: 'https://www.info2i.com/',
     },
     {
-        id: 4,
+        id: 5,
         title: 'AMAROQ',
         content: 'Portfolio for a photographer, artist and Filmmaker',
         image: '/images/amarok.png',
-        code: 'https://aimdexter.github.io/AMAROQ/',
-        demo: 'https://github.com/aimdexter/AMAROQ',
+        code: 'https://github.com/aimdexter/AMAROQ',
+        demo: 'https://aimdexter.github.io/AMAROQ/',
     },
     {
-        id: 5,
+        id: 6,
         title: 'i2i-infogerance',
         content: 'Pwa for i2i company',
         image: '/images/infoi.jpg',
@@ -77,13 +77,13 @@ const Projects = () => {
                                     {content}
                                 </div>
                                 <div className="flex gap-6 text-base font-bold dark:text-white transition duration-500">
-                                    <a href={code} className='pb-1  px-2 flex items-center gap-2 border-b-2 border-brand'>
+                                    <a href={code} target='_blank' className='pb-1  px-2 flex items-center gap-2 border-b-2 border-brand'>
                                         <BsCode />
-                                        <div className="l">code</div>
+                                        <div className="">code</div>
                                     </a>
-                                    <a href={demo} className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
+                                    <a href={demo} target='_blank' className='pb-1 px-2 flex items-center gap-2 border-b-2 border-brand'>
                                         <TbScreenShare />
-                                        <div className="l">demo</div>
+                                        <div className="">demo</div>
                                     </a>
                                 </div>
                             </div>
