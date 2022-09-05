@@ -66,7 +66,7 @@ const Projects = () => {
             <div className="py-7 flex flex-col gap-5 justify-around items-start md:flex-row md:flex-wrap">
                 {projects.map(({ id, title, content, image, code, demo, tools }) => {
                     return (
-                        <div key={id} className="shadow-lg shadow-dark dark:shadow-white dark:shadow-sm transition duration-500 rounded-2xl md:max-w-[300px] h-fit">
+                        <div key={id} className="shadow-lg w-fit shadow-dark dark:shadow-white dark:shadow-sm transition duration-500 rounded-2xl md:max-w-[300px] h-fit">
                             <div className="">
                                 <img className="rounded-3xl py-2 transition ease-in-out delay-150 bg-gray-500 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300" src={image} alt={title} />
                             </div>
@@ -77,7 +77,9 @@ const Projects = () => {
                                 <div className="flex flex-wrap gap-2 dark:text-white transition duration-500">
                                     {tools.map((item, i) => {
                                         return (
-                                            <Stack key={i} content={item} />
+                                            <Stack key={i}>
+                                                {item}
+                                            </Stack>
                                         );
                                     })}
                                 </div>

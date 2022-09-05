@@ -1,6 +1,7 @@
 import Socials from "./Socials";
 import Stack from "./Stack";
-import Typical from 'react-typical'
+import Typical from 'react-typical';
+import Profileimage from '/images/profile.webp'
 
 const Profile = () => {
     const tools = [
@@ -36,7 +37,7 @@ const Profile = () => {
         <div className=" flex flex-col pt-8 lg:mt-8">
             <div className="flex pb-6 flex-col-reverse md:flex md:flex-row md:justify-center md:items-center md:gap-5 md:pb-8">
                 <div className="md:flex-1">
-                    <img src="/images/profile.jpg" className="rounded-3xl transition hover:-translate-y-1 hover:-rotate-6 duration-300" alt="" />
+                    <img src={Profileimage} className="rounded-3xl w-fit h-fit transition hover:-translate-y-1 hover:-rotate-6 duration-300" alt="" />
                 </div>
                 <div className="md:flex-1">
                     <div className="flex flex-col text-xl font-bold py-4">
@@ -67,7 +68,9 @@ const Profile = () => {
                     <div className="flex gap-2 flex-wrap items-center justify-center">
                         {tools.map((item, i) => {
                             return (
-                                <Stack key={i} content={item} />
+                                <Stack key={i}>
+                                    {item}
+                                </Stack>
                             );
                         })}
                     </div>
