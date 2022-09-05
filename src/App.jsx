@@ -5,7 +5,6 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './index.css'
 
-
 function App() {
   return (
     <div id='home' className="font-arial flex flex-col bg-white dark:bg-dark transition duration-500">
