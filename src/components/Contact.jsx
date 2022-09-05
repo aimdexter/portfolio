@@ -17,7 +17,7 @@ const Contact = () => {
                             <label htmlFor="email" className="dark:peer-focus:bg-dark absolute left-2 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:font-semibold peer-placeholder-shown:top-2 peer-focus:-top-2 peer-focus:bg-white peer-focus:text-gray-600 peer-focus:text-sm">Email</label>
                         </div>
                         <div className="mt-10 relative">
-                            <textarea id="Message" required type="message" name="message" className="bg-transparent peer pl-2 h-10 w-full border-2 dark:text-white border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-brand" placeholder="Message" />
+                            <textarea id="Message" rows="9" required type="message" name="message" className="bg-transparent peer pl-2 pt-2 w-full border-2 dark:text-white border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-brand" placeholder="Message" />
                             <label htmlFor="Message" className="dark:peer-focus:bg-dark absolute left-2 -top-3.5 text-gray-600 text-sm transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-400 peer-placeholder-shown:font-semibold peer-placeholder-shown:top-2 peer-focus:-top-2 peer-focus:bg-white peer-focus:text-gray-600 peer-focus:text-sm">Message</label>
                         </div>
                         <input type="hidden" name="redirect" value="https://web3forms.com/success" />
