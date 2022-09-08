@@ -7,33 +7,33 @@ const Socials = () => {
     return (
         <div className="flex flex-col gap-5 justify-center mb-4 md:flex-row md:justify-between">
             <div className="flex justify-around md:gap-2 lg:gap-4">
-                <div className="text-2xl cursor-none text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://www.linkedin.com/in/aimade-anouar/" className='cursor-none' target='_blank'>
+                <div className="text-2xl  text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://www.linkedin.com/in/aimade-anouar/" className='' target='_blank'>
                         <FaLinkedinIn />
                     </a>
                 </div>
-                <div className="text-2xl cursor-none text-blue-400 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://twitter.com/AnouarAimade" className='cursor-none' target="_blank">
+                <div className="text-2xl  text-blue-400 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://twitter.com/AnouarAimade" className='' target="_blank">
                         <BsTwitter />
                     </a>
                 </div>
-                <div className="text-2xl cursor-none text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://github.com/aimdexter" className='cursor-none' target="_blank">
+                <div className="text-2xl  text-blue-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://github.com/aimdexter" className='' target="_blank">
                         <FaGithub />
                     </a>
                 </div>
-                <div className="text-2xl cursor-none text-brand transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://stackoverflow.com/users/12769151/aimade-anouar?tab=profile" className='cursor-none' target="_blank">
+                <div className="text-2xl  text-brand transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://stackoverflow.com/users/12769151/aimade-anouar?tab=profile" className='' target="_blank">
                         <BsStackOverflow />
                     </a>
                 </div>
-                <div className="text-2xl cursor-none text-red-500 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://www.youtube.com/channel/UCiKzwqOD_8s764hzvhoZm9w" className='cursor-none' target="_blank">
+                <div className="text-2xl  text-red-500 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://www.youtube.com/channel/UCiKzwqOD_8s764hzvhoZm9w" className='' target="_blank">
                         <BsYoutube />
                     </a>
                 </div>
-                <div className="text-2xl cursor-none text-pink-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
-                    <a href="https://www.instagram.com/aimade_anouar/" className='cursor-none' target="_blank">
+                <div className="text-2xl  text-pink-900 transition duration-500 lg:hover:bg-dark lg:p-2 lg:rounded-full lg:hover:text-white lg:dark:hover:bg-white lg:dark:hover:text-dark lg:hover:animate-bounce">
+                    <a href="https://www.instagram.com/aimade_anouar/" className='' target="_blank">
                         <FaInstagram />
                     </a>
                 </div>
@@ -43,7 +43,7 @@ const Socials = () => {
                     <div className="text-2xl">
                         <IoIosAttach />
                     </div>
-                    <a href="https://docs.google.com/document/d/e/2PACX-1vQ6RChBocrwxccBCjG7nuqTdS6HC4zi509Fgno_cQjtt_tWwqNPDcsPxIDTvOXf10aIzh82KT0xWDyn/pub" target="_blank">
+                    <a hrefs="https://docs.google.com/document/d/e/2PACX-1vQ6RChBocrwxccBCjG7nuqTdS6HC4zi509Fgno_cQjtt_tWwqNPDcsPxIDTvOXf10aIzh82KT0xWDyn/pub" target="_blank">
                         <div className="">View resume</div>
                     </a>
                 </div>
