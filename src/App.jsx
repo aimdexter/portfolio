@@ -7,8 +7,11 @@ import './index.css'
 
 function App() {
   return (
-    <div id='home' className="font-arial flex flex-col bg-white dark:bg-dark transition duration-500">
-      <div className="p-4 max-w-[1024px] mx-auto">
+    <div
+      id='home'
+      className='font-arial flex flex-col bg-white dark:bg-dark transition duration-500'
+    >
+      <div className='p-4 max-w-[1024px] mx-auto'>
         <Menu />
         <div id='about'>
           <Profile />

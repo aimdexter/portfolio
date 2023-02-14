@@ -1,0 +1,6 @@
+.yarn
+.npm
+.next
+dist
+node_modules
+skills-builder
