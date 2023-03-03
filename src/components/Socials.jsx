@@ -57,19 +57,20 @@ const Socials = () => {
           </a>
         </div>
       </div>
-      <div className='flex justify-center items-center font-bold text-base'>
-        <div className='flex border-b-4 border-brand pb-2 px-3 md:px-1 dark:text-white duration-500 transition ease-in-out hover:-translate-y-1 hover:scale-110'>
-          <div className='text-2xl'>
-            <IoIosAttach />
+      <a
+        href='/uploads/Aimade_Anouar_Resume.pdf'
+        target='_blank'
+        className='cursor-pointer'
+      >
+        <div className='flex justify-center items-center font-bold text-base'>
+          <div className='flex border-b-4 border-brand pb-2 px-3 md:px-1 dark:text-white duration-500 transition ease-in-out hover:-translate-y-1 hover:scale-110'>
+            <div className='text-2xl'>
+              <IoIosAttach />
+            </div>
+            View resume
           </div>
-          <a
-            hrefs='https://docs.google.com/document/d/e/2PACX-1vQ6RChBocrwxccBCjG7nuqTdS6HC4zi509Fgno_cQjtt_tWwqNPDcsPxIDTvOXf10aIzh82KT0xWDyn/pub'
-            target='_blank'
-          >
-            <div className=''>View resume</div>
-          </a>
         </div>
-      </div>
+      </a>
     </div>
   )
 }
